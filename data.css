@@ -1,0 +1,136 @@
+body{
+	background-color: #cd0039;
+}
+select{
+	font:16px arial;
+}
+
+/*subclasses*/
+#Introd{
+	width: 900px;
+	border: 6px solid  #003b79;
+	margin: 0px auto;
+	background-color: rgb(0, 156, 222);
+	overflow: auto;
+	display: block;
+	
+	justify:center;
+}
+#esq{
+	width:150px; 
+	padding:25px 25px 25px 50px; 
+	float:left;
+}
+#dir{
+	width:600px; 
+	padding:25px 50px 25px 25px; 
+	background-color:#ffffff; 
+	float:left;
+}
+#Conferencia{
+	width: 900px; 
+	border: 6px solid rgb(144, 128, 112);
+	margin: 0px auto; 
+	background-color: rgb(0, 156, 222); 
+	overflow: auto; 
+	display: none;
+}
+#operacoesConferencia{
+	width:880px;
+	padding:5px 0px;
+}
+#esqConferencia{
+	width:150px;
+	padding:25px 25px 25px 50px; 
+	float:left;
+}
+#dirConferencia{
+	width:600px; 
+	padding:25px 50px 25px 25px; 
+	background-color: rgb(0, 156, 222); 
+	float:left;
+}
+#Time{
+	width: 900px; 
+	border: 6px solid rgb(144, 128, 112); 
+	margin: 0px auto; 
+	background-color: rgb(144, 128, 112); 
+	display: none;
+}
+#operacoesTime{
+	width:880px; 
+	padding:5px 0px;
+}
+#equipeCompleta{
+	width:800px; 
+	padding:50px; 
+	background-color: rgb(0, 156, 222);
+}
+#tituloObra{
+	font: bold 22px arial;
+	color: #908070;
+	margin: 0px 0px 25px 0px;
+}
+#introTitulo{
+	font: bold 30px arial;
+	color:  #003b79;
+	border-bottom: 3px solid #8090a0;
+	margin: 0px;
+}
+
+#introSubtitulo{
+	font: bold 22px arial;
+	color: #cd0039;
+	margin: 0px 0px 25px 0px;
+}
+/*instâncias*/
+
+.imag{
+	width:100%;
+	border: 3px solid rgb(0,0,0);
+	margin-bottom:30px;
+	font:bold 12px arial;
+	text-align:center;
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	cursor:pointer;
+}
+
+.imag:hover{
+	background-color: rgb(255,255,255);
+	color: rgb(0, 0, 0);
+	border: 3px solid rgb(255,255,255);
+}
+.selectConferencia{
+	width:100%;
+	border: 3px solid rgb(0,0,0);
+	margin-bottom:30px;
+	font:bold 12px arial;
+	text-align:center;
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	cursor:pointer;
+}
+.selectConferencia:hover{
+	background-color: rgb(255,255,255);
+	color: rgb(0, 0, 0);
+	border: 3px solid rgb(255,255,255);
+}
+.equipeGrande{
+	width: 100%;
+}
+.escrita{
+	font: 16px/1.5 verdana;
+	margin: 0px 0px 20px 0px;
+}
+.btn{
+	font: 16px arial;
+	padding: 0px 8px;
+	cursor: pointer;
+	margin-right: 3px;
+}
+.nomeConf{
+	font: bold 22px arial;
+	color: #908070;
+	margin: 0px 0px 25px 0px;
+}	

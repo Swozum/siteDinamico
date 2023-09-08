@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="data.css" rel="stylesheet" type="text/css">
+	<script src="data_TEAMS.js"></script>
+	<script src="data_PARS.js"></script>
+	<script src="data_FUNCS.js"></script>
+</head>
+<body onload="inic()">
+		<div id="Introd">
+			<div id="operacoes"></div>
+			<div id="esq"></div>
+			<div id="dir"></div>	
+		</div>
+		<div id="Conferencia">
+				<div id="operacoesConferencia">
+				<button class="btn" onclick="Intro()">ver introdução</button>
+				<button class="btn" onclick="avanca(-1)">Conferencia anterior</button>
+				<button class="btn" onclick="avanca(1)">Conferencia seguinte</button>
+				<select id="nomeConferencia" onchange="escolheConferencia()"></select>
+			</div>
+			<div id="esqConferencia"></div>
+			<div id="dirConferencia">	
+					<div id="fotoConferencia"></div>
+					<div id="conferenciaCont"></div>
+				</div>
+			</div>
+			
+			<div id="Time">
+				<div id="operacoesTime"></div>
+				<div id="equipeCompleta"></div>
+			</div>
+	</body>
+</html>
