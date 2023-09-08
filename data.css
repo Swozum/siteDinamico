@@ -83,6 +83,9 @@ select{
 	color: #cd0039;
 	margin: 0px 0px 25px 0px;
 }
+#titulos{
+
+}
 /*instâncias*/
 
 .imag{
@@ -134,3 +137,7 @@ select{
 	color: #908070;
 	margin: 0px 0px 25px 0px;
 }	
+.logoEquipe{
+	width: 100px;
+	height: 100px;
+}

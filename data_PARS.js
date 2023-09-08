@@ -81,3 +81,23 @@ function fundoCor(iConf, iTime){
 function letraCor(iConf, iTime){
     return conferencias[iConf].equipesConferencia[iTime].corEquipe;
 }
+//retorna os titulos conquistados pela equipe
+function titulos(iConf, iTime){
+    return conferencias[iConf].equipesConferencia[iTime].titulos;
+}
+//retorna os titulos conquistados pela equipe
+function nomeEstadio(iConf, iTime){
+    return conferencias[iConf].equipesConferencia[iTime].nomeEstadio;
+}
+//retorna os titulos conquistados pela equipe
+function maiorRival(iConf, iTime){
+    return conferencias[iConf].equipesConferencia[iTime].maiorRival;
+}
+//retorna os titulos conquistados pela equipe
+function logoEquipe(iConf, iTime){
+    return conferencias[iConf].equipesConferencia[iTime].logoEquipe;
+}
+//retorna os titulos conquistados pela equipe
+function nomeDaRivalidade(iConf, iTime){
+    return conferencias[iConf].equipesConferencia[iTime].nomeDaRivalidade;
+}

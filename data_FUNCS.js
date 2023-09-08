@@ -161,7 +161,11 @@ function equipeGrande(iConferencia, iEquipe){
 	codHTML = '';
 	codHTML += '<img class="equipeGrande" src = "'+equipeFoto(iConferencia, iEquipe)+'"/>';
 	codHTML += '<h2 id="tituloEquipe">' + equipeNome(iConferencia, iEquipe)+"&nbsp<br> "+ equipeAno(iConferencia, iEquipe)+'</h2>';
+	codHTML += '<h3>Estadio: '+nomeEstadio(iConferencia, iEquipe)+'</h3>';
 	codHTML += equipeTexto(iConferencia, iEquipe);
+	codHTML += '<p id="titulos">Titulos Nacionais: '+ titulos(iConferencia,iEquipe) + '</p>';
+	codHTML += '<h3> Maior Rival: '+ maiorRival(iConferencia, iEquipe) + '<br><br>Nome Da Rivalidade: '+nomeDaRivalidade(iConferencia,iEquipe)+' </h3>';
+	codHTML += '<img class="logoEquipe" src="'+ logoEquipe(iConferencia, iEquipe) +'"/>';
 	out("equipeCompleta", codHTML);
 	refID("nomeEquipe").selectedIndex = iEquipe;
 }
